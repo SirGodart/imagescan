@@ -1,0 +1,97 @@
+
+	@font-face {
+	  font-family: 'Roboto';
+	  font-style: normal;
+	  font-weight: 300;
+	  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+
+	}
+
+
+.bgImage {
+			background-color: black;
+			 top: 0; left: 0;
+  			right: 0; bottom: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 20;
+			opacity: 0.0;
+			position: fixed;
+		}
+
+
+
+html { 
+
+  background: url(../images/image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+#imageWrap {
+
+	
+	position: absolute;
+	
+}
+
+
+
+
+#myCanvas {
+
+	
+	 position: absolute;
+  	 opacity: 0;
+	 z-index: 10;
+	 top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+
+}
+
+
+
+
+
+#lineCanvas {
+    position: absolute;
+	z-index: 11;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+
+
+#topText {
+			
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 20;
+	opacity: 0;
+
+			}
+
+
+.matrix {
+
+				opacity: 0.0;
+				position: absolute;
+				color: white;
+				font-size: 9px;
+				font-family: Roboto;
+				font-weight: regular;
+				letter-spacing: 0.3em;
+
+			}
+
+
+

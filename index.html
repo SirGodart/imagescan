@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sony</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/lib/jquery-1.11.3.min.js"></script>
+
+	
+	</head>
+	<body>
+
+
+	<div class="bgImage" > </div>
+
+
+	<canvas id="myCanvas"></canvas>
+	<canvas id="lineCanvas"></canvas>
+
+		<div id="topText" class="matrix">
+			SCANNING IMAGE<br>
+			>_ done
+		</div>
+
+	
+
+
+	<script type="text/javascript">
+
+	 $(document).ready(function () {
+
+	 	$('#myCanvas').animate({   opacity: 1.0}, { duration: 1500 });
+	 	$('#lineCanvas').animate({   opacity: 1.0}, { duration: 1500 });
+	 	$('#topText').animate({   opacity: 0.6}, { duration: 1500 });
+	 });
+
+	</script>
+
+	
+	</body>
+
+
+	<script src="js/custom/matrix.js"></script>
+	<script src="js/custom/dot.js"></script>
+	<script src="js/custom/main.js"></script>
+
+
+
+
+
+
+</html>
